@@ -1,0 +1,9 @@
+{
+  "name": "ionic_fire_b",
+  "app_id": "e17df9e0",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
+

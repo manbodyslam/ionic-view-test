@@ -1,0 +1,29 @@
+<!--
+  Generated template for the NotifyPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>notify</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-item>
+    <ion-label color="primary" stacked>Username</ion-label>
+    <ion-input  #Unameinput type="email" value="" placeholder="Email & username"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label color="primary" stacked>Password</ion-label>
+    <ion-input #PWDinput type="password" value=""></ion-input>
+  </ion-item>
+  <div padding>
+    <button ion-button full (click)=loginUser()>Full Button</button>
+  </div>
+</ion-content>
